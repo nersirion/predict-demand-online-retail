@@ -18,3 +18,8 @@
   CustomerID: Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer.
   Country: Country name. Nominal. The name of the country where a customer resides.
 
+# Описание файлов
+  1. preprocess_retail.py - скрипт для предварительной обработки данных онлайн-ретейла. Подходит только для формата аналогичного исходному датасету.
+  2. HyperoptOptimisation.py - API для настройки параметров МЛ моделей (xgboost, catboost, lightgbm). 
+  3. DemandPredict_retail_xgboost.ipynb - pipeline для предсказания спроса на день вперед. Включает себя обработку данных, выбор модели, оптимизацию гиперпараметров и проверку на итогово датасете с построением графика.
+  4. Customer_data.ipynb - Небольшая обработка данных сгрупированная по покупателям. Для использования в МЛ нужно или найти хороший таргет, или дообрабатывать данные.
